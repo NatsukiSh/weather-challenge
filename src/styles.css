@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1;
+  height: 100vh;
+}
+
+.container {
+  width: 90vh;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header img {
+  width: 56px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
