@@ -7,6 +7,8 @@
 html {
   line-height: 1;
   height: 100vh;
+  background-image: linear-gradient(to bottom, #ebeffd, #85a5fa);
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -19,10 +21,42 @@ header img {
   width: 56px;
 }
 
-footer {
+main {
   text-align: center;
 }
+.weather-info {
+  margin-bottom: 16px;
+}
 
-footer a {
+.weather-icon {
+  max-width: 100%;
+}
+
+.weather-temperature {
+  font-size: 112px;
+}
+
+.panel {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.panel-title {
+  margin-bottom: 12px;
+  color: #4c6c96;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer-container {
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.footer-container a {
   text-decoration: none;
 }

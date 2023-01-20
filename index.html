@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is my simple weather challenge created by Natsuki Shuko."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,15 +22,25 @@
       <header>
         <img src="img/logo.png" alt="Coding week logo" />
       </header>
-      <main></main>
+      <main>
+        <div class="weather-info">
+          <img clas="weather-icon" src="/img/10n.png" alt="Weather Icon" />
+        </div>
+        <div class="weather-location">Retrieving data...</div>
+        <div class="weather-temperature">2°</div>
+        <div class="panel">
+          <h4 class="panel-title">Info</h4>
+          <div class="description">It's crescent moontime</div>
+        </div>
+      </main>
+      <footer class="footer-container">
+        This was
+        <a href="https://github.com/NatsukiSh/weather-challenge">
+          <strong>coded</strong>
+        </a>
+        with ❤ by Natsuki Shuko
+      </footer>
     </div>
-    <footer>
-      This was
-      <a href="https://github.com/NatsukiSh/weather-challenge">
-        <strong>coded</strong>
-      </a>
-      with ❤ by Natsuki Shuko
-    </footer>
     <script src="/src/app.js"></script>
   </body>
 </html>
